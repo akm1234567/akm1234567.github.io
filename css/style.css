@@ -4,12 +4,56 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,:after,:before{backgr
 
 h1{
 font-size: 80px;
-
+letter-spacing: 0.05em;
 background-color: rgba(118, 246, 255, 0.365);
 width: -moz-fit-content; /* firefox用 */
 width: fit-content;
 margin: 100px auto 0;
 padding: 10px 20px;
+}
+
+h2{
+font-size: 40px;
+/* アンダーラインマーカー */
+background-image: linear-gradient( rgba(0 0 0 / 0) 65%,rgb(218, 59, 186) 65%);
+width: -moz-fit-content; /* firefox用 */
+width: fit-content;
+margin: 100px auto;
+line-height: 1;
+padding: 10px;
+}
+
+/* 2行以上にアンダーライン */
+h3{
+font-size: 20px;
+width: -moz-fit-content; /* firefox用 */
+width: fit-content;
+margin: 50px auto;
+line-height: 1.5;
+padding: 10px;
+text-align: center;
+}
+
+h3>span{
+/* アンダーラインマーカー */
+background-image: linear-gradient( rgba(0 0 0 / 0) 65%,rgb(218, 59, 186) 65%);
+}
+
+p{font-size: 24px;
+width: -moz-fit-content; /* firefox用 */
+width: fit-content;
+margin: 10px auto;
+padding: 5px;
+background-color: rgb(255, 215, 215);
+}
+
+p>a{
+color: #222;
+}
+
+p>a:hover{
+color: rgb(59, 226, 255);
+background-color: rgb(83, 86, 255);
 }
 
 .main-visual{
